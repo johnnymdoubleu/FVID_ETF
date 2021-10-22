@@ -32,7 +32,7 @@ class Scrapper(object):
             passWord.send_keys(Keys.RETURN)
 
         except TimeoutException:
-            print("TimeoutException! Username/password field or login button not found on glassdoor.com")
+            print("TimeoutException! Username/password field or login button not found on morningstar.com")
             exit()
 
     def getCode(self):
